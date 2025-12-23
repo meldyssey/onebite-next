@@ -30,8 +30,8 @@ Next.js의 주요 기능들을 학습하고 실습하면서 만든 프로젝트�
 - [x] SSG 동적 경로 적용
 - [x] SSG 폴백 옵션 실습
 - [x] ISR (Incremental Static Regeneration)
-- [ ] SEO 설정
-- [ ] 배포
+- [x] SEO 설정
+- [x] 배포
 
 #### App Router
 
