@@ -88,6 +88,8 @@ Next.js를 학습하면서 정리한 내용을 블로그에 기록하고 있습�
   ](https://velog.io/@melcoding/Next.js-data-fetching)
 - [[Next.js] SSG fallback 옵션
   ](https://velog.io/@melcoding/Next.js-SSG-fallback)
+- [[Next.js] ISR과 On-Demand ISR (요청 기반 ISR)
+  ](https://velog.io/@melcoding/Next.js-ISR)
 
 ## 📌 참고 자료
 
