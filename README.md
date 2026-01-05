@@ -37,9 +37,9 @@ Next.js의 주요 기능들을 학습하고 실습하면서 만든 프로젝트�
 
 - [x] 페이지 라우팅 설정
 - [x] Layout 구현
-- [ ] 리액트 서버 컴포넌트
-- [ ] 네비게이팅
-- [ ] UI 구현
+- [x] 리액트 서버 컴포넌트
+- [x] 네비게이팅
+- [x] UI 구현
 - [ ] 데이터 페칭
 - [ ] 데이터 캐시
 - [ ] 리퀘스트 메모이제이션
@@ -96,6 +96,8 @@ Next.js를 학습하면서 정리한 내용을 블로그에 기록하고 있습�
   ](https://velog.io/@melcoding/Next.js-page-router-pros-cons)
 - [[Next.js] App Router (File-based Routing)
   ](https://velog.io/@melcoding/Next.js-App-Router-File-based-Routing)
+- [[Next.js] 리액트 서버 컴포넌트
+  ](https://velog.io/@melcoding/Next.js-react-server-component)
 
 ## 📌 참고 자료
 
