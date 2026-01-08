@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import style from "./page.module.css";
 
+// true: 기본값
 // false: 명시한 페이지 외에는 모두 404 페이지로 이동
-// 기본값은 true
 export const dynamicParams = true;
 
 export function generateStaticParams() {
