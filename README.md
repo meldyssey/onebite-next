@@ -128,8 +128,10 @@ Next.js를 학습하면서 정리한 내용을 블로그에 기록하고 있습�
   ](https://velog.io/@melcoding/Next.js-App-Router-File-based-Routing)
 - [[Next.js] 리액트 서버 컴포넌트
   ](https://velog.io/@melcoding/Next.js-react-server-component)
-- [[Next.js] App Router - 데이터 페칭
+- [[Next.js] App Router - 데이터 페칭 (Data Fetching)
   ](https://velog.io/@melcoding/Next.js-App-Router-data-fetching)
+- [[Next.js] App Router - 데이터 캐싱 (Data Caching)
+  ](https://velog.io/@melcoding/Next.js-Data-Caching)
 
 ## 📌 참고 자료
 
