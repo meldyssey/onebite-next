@@ -132,6 +132,10 @@ Next.js를 학습하면서 정리한 내용을 블로그에 기록하고 있습�
   ](https://velog.io/@melcoding/Next.js-App-Router-data-fetching)
 - [[Next.js] App Router - 데이터 캐싱 (Data Caching)
   ](https://velog.io/@melcoding/Next.js-Data-Caching)
+- [[Next.js] App Router - 리퀘스트 메모이제이션 (Request Memoization)
+  ](https://velog.io/@melcoding/Next.js-App-Router-Request-Memoization)
+- [[Next.js] App Router - Next.js 15의 비동기 searchParams 이해
+  ](https://velog.io/@melcoding/Next.js-Next.js15-searchParams)
 
 ## 📌 참고 자료
 
