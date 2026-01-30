@@ -3,7 +3,6 @@ import style from "./page.module.css";
 import { BookData } from "@/types";
 import { delay } from "@/util/delay";
 import { Suspense } from "react";
-import BookItemSkeleton from "@/components/skeleton/book-item-skeleton";
 import BookListSkeleton from "@/components/skeleton/book-list-skelton";
 import { Metadata } from "next";
 
@@ -61,7 +60,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "한입 북스",
     description: "한입 북스에 등록된 도서를 만나보세요",
-    images: ["/thumbnail,png"],
+    images: ["/thumbnail.png"],
   },
 };
 

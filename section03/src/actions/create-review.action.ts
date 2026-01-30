@@ -2,7 +2,7 @@
 "use server";
 
 import { delay } from "@/util/delay";
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidateTag } from "next/cache";
 
 export async function createReviewAction(_: any, formData: FormData) {
   const bookId = formData.get("bookId")?.toString();
