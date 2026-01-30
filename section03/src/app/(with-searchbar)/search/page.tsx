@@ -1,7 +1,7 @@
 import BookItem from "@/components/book-item";
 import BookListSkeleton from "@/components/skeleton/book-list-skelton";
 import { BookData } from "@/types";
-import { delay } from "@/util/delay";
+// import { delay } from "@/util/delay";
 import { Suspense } from "react";
 import { Metadata } from "next";
 
@@ -9,7 +9,7 @@ import { Metadata } from "next";
 // query string은 undefined로 됨 -> 동적 함수가 제대로 동작하지 않음
 
 async function SearchResult({ q }: { q: string }) {
-  await delay(1500);
+  // await delay(1500);
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_API_SERVER_URL}/book/search?q=${q}`,
     { cache: "force-cache" },

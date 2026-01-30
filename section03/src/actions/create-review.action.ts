@@ -1,7 +1,7 @@
 // 파일로 나눈 경우 상단으로 위치시키기
 "use server";
 
-import { delay } from "@/util/delay";
+// import { delay } from "@/util/delay";
 import { revalidateTag } from "next/cache";
 
 export async function createReviewAction(_: any, formData: FormData) {
@@ -17,7 +17,7 @@ export async function createReviewAction(_: any, formData: FormData) {
   }
 
   try {
-    await delay(2000);
+    // await delay(2000);
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_API_SERVER_URL}/review`,
       {

@@ -7,11 +7,22 @@ import Image from "next/image";
 
 // true: 기본값
 // false: 명시한 페이지 외에는 모두 404 페이지로 이동
-export const dynamicParams = true;
+// export const dynamicParams = true;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_API_SERVER_URL}/book`,
+  );
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+
+  const books: BookData[] = await response.json();
   //문자열 데이터로만 명시해야 함
-  return [{ id: "1" }, { id: "2" }, { id: "3" }];
+  // return [{ id: "1" }, { id: "2" }, { id: "3" }];
+  return books.map((book) => ({
+    id: book.id.toString(),
+  }));
 }
 
 async function BookDetail({ bookId }: { bookId: string }) {
