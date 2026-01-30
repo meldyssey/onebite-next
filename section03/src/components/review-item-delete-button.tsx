@@ -26,8 +26,8 @@ export default function ReviewItemDeleteButton({
   // requestSubmit 안전하게 동작할 가능성이 높음
   return (
     <form ref={formRef} action={formAction}>
-      <input name="reviewId" value={reviewId} hidden />
-      <input name="bookId" value={bookId} hidden />
+      <input name="reviewId" value={reviewId} hidden readOnly />
+      <input name="bookId" value={bookId} hidden readOnly />
       {isPending ? (
         <div>...</div>
       ) : (

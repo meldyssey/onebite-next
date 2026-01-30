@@ -6,7 +6,7 @@ import { BookData } from "@/types";
 async function Footer() {
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_API_SERVER_URL}/book`,
-    { cache: "force-cache" }
+    { cache: "force-cache" },
   );
   if (!response.ok) {
     return <footer>제작 @winterlood</footer>;
@@ -38,6 +38,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </div>
+        <div id="modal-root"></div>
       </body>
     </html>
   );
