@@ -48,11 +48,11 @@ Next.js의 주요 기능들을 학습하고 실습하면서 만든 프로젝트�
 - [x] 클라이언트 라우터 캐시
 - [x] 스트리밍
 - [x] 에러 핸들링
-- [ ] 서버 액션
-- [ ] 패럴랠 라우트
-- [ ] 인터셉팅 라우트
-- [ ] 패럴랠 & 인터셉팅 라우트
-- [ ] 최적화 및 배포
+- [x] 서버 액션
+- [x] 패럴랠 라우트
+- [x] 인터셉팅 라우트
+- [x] 패럴랠 & 인터셉팅 라우트
+- [x] 최적화 및 배포
 
 ## 📁 프로젝트 구조
 
@@ -109,33 +109,43 @@ Next.js를 학습하면서 정리한 내용을 블로그에 기록하고 있습�
 - [[Next.js] Next.js 시작하기
   ](https://velog.io/@melcoding/next.js-start)
 - [[Next.js] Page Router
-  ](https://velog.io/@melcoding/Next.js-Page-Router)
+  ](https://velog.io/@melcoding/next.js-page-router)
 - [[Next.js] 페이지 라우팅 설정하기
-  ](https://velog.io/@melcoding/Next.js-page-routing)
+  ](https://velog.io/@melcoding/next.js-page-routing)
 - [[Next.js] 프리페칭(Prefetching)
-  ](https://velog.io/@melcoding/Next.js-Prefetching)
+  ](https://velog.io/@melcoding/next.js-prefetching)
 - [[Next.js] 데이터 패칭(Data fetching)
-  ](https://velog.io/@melcoding/Next.js-data-fetching)
+  ](https://velog.io/@melcoding/next.js-data-fetching)
 - [[Next.js] SSG fallback 옵션
-  ](https://velog.io/@melcoding/Next.js-SSG-fallback)
+  ](https://velog.io/@melcoding/next.js-ssg-fallback)
 - [[Next.js] ISR과 On-Demand ISR (요청 기반 ISR)
-  ](https://velog.io/@melcoding/Next.js-ISR)
+  ](https://velog.io/@melcoding/next.js-ISR)
 - [[Next.js] Next.js SEO 설정
-  ](https://velog.io/@melcoding/Next.js-SEO)
+  ](https://velog.io/@melcoding/next.js-SEO)
 - [[Next.js] 페이지 라우터 장단점
-  ](https://velog.io/@melcoding/Next.js-page-router-pros-cons)
+  ](https://velog.io/@melcoding/next.js-page-router-pros-cons)
 - [[Next.js] App Router (File-based Routing)
-  ](https://velog.io/@melcoding/Next.js-App-Router-File-based-Routing)
+  ](https://velog.io/@melcoding/next.js-app-router-file-based-routing)
 - [[Next.js] 리액트 서버 컴포넌트
-  ](https://velog.io/@melcoding/Next.js-react-server-component)
+  ](https://velog.io/@melcoding/next.js-react-server-component)
 - [[Next.js] App Router - 데이터 페칭 (Data Fetching)
-  ](https://velog.io/@melcoding/Next.js-App-Router-data-fetching)
+  ](https://velog.io/@melcoding/next.js-app-router-data-fetching)
 - [[Next.js] App Router - 데이터 캐싱 (Data Caching)
-  ](https://velog.io/@melcoding/Next.js-Data-Caching)
+  ](https://velog.io/@melcoding/next.js-data-caching)
 - [[Next.js] App Router - 리퀘스트 메모이제이션 (Request Memoization)
-  ](https://velog.io/@melcoding/Next.js-App-Router-Request-Memoization)
+  ](https://velog.io/@melcoding/next.js-app-router-request-memoization)
 - [[Next.js] App Router - Next.js 15의 비동기 searchParams 이해
-  ](https://velog.io/@melcoding/Next.js-Next.js15-searchParams)
+  ](https://velog.io/@melcoding/next.js-search-params)
+- [[Next.js] App Router - 풀 라우트 캐시 (Full Route Cache)
+  ](https://velog.io/@melcoding/next.js-full-route-cache)
+- [[Next.js] App Router - Revalidation (ISR)
+  ](https://velog.io/@melcoding/next.js-revalidation-ISR)
+- [[Next.js] App Router - 라우트 세그먼트 옵션
+  ](https://velog.io/@melcoding/next.js-app-router-segment-option)
+- [[Next.js] App Router - 클라이언트 라우터 캐시
+  ](https://velog.io/@melcoding/next.js-app-router-client-router-cache)
+- [[Next.js] App Router - 스트리밍
+  ](https://velog.io/@melcoding/next.js-app-router-streaming)
 
 ## 📌 참고 자료
 
